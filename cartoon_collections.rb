@@ -25,7 +25,7 @@ end
 def long_planeteer_calls(calls)
   # calls_to_string = calls.join(" ")
   # check = /\w{4,}/.match(calls_to_string)
-  # if check == nil
+  # if check == nil check == nil ? ture : false
   #   false
   # else
   #   true
