@@ -4,7 +4,7 @@ require 'pry'
 def roll_call_dwarves(dwarves)
   i = 0
   while i < dwarves.length
-    dwarves.each do |dwarf, i|
+    dwarves.each_with_index do |dwarf, i|
       dwarf_index = (dwarves.index(dwarf) + 1).to_s
       puts "#{i + 1}. #{dwarf}"
     end
