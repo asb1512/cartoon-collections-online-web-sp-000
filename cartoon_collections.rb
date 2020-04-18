@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
   while i < dwarves.length
     dwarves.each do |dwarf, i|
       dwarf_index = (dwarves.index(dwarf) + 1).to_s
-      puts "#{dwarf_index}. #{dwarf}"
+      puts "#{i + 1}. #{dwarf}"
     end
     i += 1
   end
