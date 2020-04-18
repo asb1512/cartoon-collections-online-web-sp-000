@@ -25,11 +25,8 @@ end
 def long_planeteer_calls(calls)
   # calls_to_string = calls.join(" ")
   # check = /\w{4,}/.match(calls_to_string)
-  # if check == nil check == nil ? false : true
-  #   false
-  # else
-  #   true
-  # end
+  # check == nil ? false : true
+  #  
   calls.any? do |call|
     call.length > 4
   end
